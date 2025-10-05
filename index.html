@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Travel Explorer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>🌍 Travel Explorer</h1>
+    <input type="text" id="search" placeholder="Search for a destination...">
+  </header>
+
+  <main>
+    <section id="results"></section>
+  </main>
+
+  <!-- Chatbot -->
+  <div class="chatbot-container" id="chatbot">
+    <div class="chat-header">💬 TravelBot</div>
+    <div class="chat-body" id="chat-body"></div>
+    <div class="chat-footer">
+      <input type="text" id="chat-input" placeholder="Ask me anything...">
+      <button id="send-btn">Send</button>
+    </div>
+  </div>
+
+  <button id="chat-toggle">🤖 Chat</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
